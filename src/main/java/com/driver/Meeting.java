@@ -25,7 +25,7 @@ public class Meeting implements Comparable<Meeting>{
         else if(t1.getHour()>t2.getHour())
             return -1;
         else{
-            if(t1.getMinute()<=t2.getMinute())
+            if(t1.getMinute()<t2.getMinute())
                 return 1;
             else //if(t1.getHour()>t2.getHour())
                 return -1;
